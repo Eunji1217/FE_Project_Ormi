@@ -258,16 +258,16 @@ hr{
 #btn_arrowUp{
     border-style: none;
     background-color: transparent;
-    z-index: 2;
-    position: relative;
+    z-index: 150;
+    position: fixed;
     float: right;
     margin-right: 20px;
     top: -60px;
+    /*display: none;*/
 }
 #btn_arrowUp img{
     width: 40px;
     height: 40px;
-    position: relative;
 }
 
 /*footer*/
@@ -298,6 +298,16 @@ hr{
 }
 
 /*modal*/
+#modal-box{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 100;
+    display: none;
+}
 #modal{
     background-image: url('../img/modal_background.png');
     width: 600px;
@@ -309,7 +319,7 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 3;
+    z-index: 200;
 }
 #modal img{
     width: 110px;

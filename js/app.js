@@ -2,6 +2,7 @@ const imageList = document.querySelector(".img-container");
 let pageToFetch = 1;
 
 loadMap();
+toggleSubscribeModal();
 
 async function fetchImages(pageNum) {
     try {
@@ -43,16 +44,17 @@ function toggleSubscribeModal() {
     const  modal = document.querySelector("#modal");
     const modalOpenBtn = document.querySelector("#btn_subscribe");
     const modalCloseBtn = document.querySelector("#btn_modalClose");
-
+    const modalBackground = document.querySelector("#modal-box")
     // 모달 열기 버튼 클릭 이벤트
-    modalOpenBtn.addEventListener("click", function (event) {
-        event.preventDefault(); // 화면 새로고침 동작 제거
-        modal.classList.remove("display-none");
+    modalOpenBtn.addEventListener("click", function () {
+        modal.style.display = "block";
+        modalBackground.style.display="block";
     });
 
     // 모달 닫기 버튼 클릭 이벤트
     modalCloseBtn.addEventListener("click", function () {
-        modal.classList.add("display-none");
+        modal.style.display = "none";
+        modalBackground.style.display="none";
     });
 }
 
