@@ -4,4 +4,5 @@
 .idea
 dist
 FE_Project_Ormi.iml
-node_modules
+Ormi_FE_Project/node_modules
+Ormi_FE_Project

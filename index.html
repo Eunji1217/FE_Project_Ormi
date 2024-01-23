@@ -70,23 +70,37 @@
           </p>
         </div>
         <div class="img-container">
-          <img class="img-common" src="./img/box_img_1.png" alt="지긋이 쳐다보는 호두">
-          <img class="img-common" src="./img/box_img_2.png" alt="콘센트 보는 호두">
-          <img class="img-common" src="./img/box_img_3.png" alt="하늘색배경 호두">
+          <ul>
+            <li>
+              <img class="img-common" src="img/box_img_1.png" alt="지긋이 쳐다보는 호두">
+            </li>
+            <li>
+              <img class="img-common" src="img/box_img_2.png" alt="콘센트 보는 호두">
+            </li>
+            <li>
+              <img class="img-common" src="img/box_img_3.png" alt="하늘색배경 호두">
+            </li>
+            <li>
+              <img class="img-common" src="img/box_img_4.png" alt="호두 얼빡샷">
+            </li>
+            <li>
+              <img class="img-common" src="img/box_img_5.png" alt="호두아래에서내려다보기">
+            </li>
+            <li>
+              <img class="img-common" src="img/box_img_6.png" alt="하품하는 호두">
+            </li>
 
-          <img class="img-common" src="./img/box_img_4.png" alt="호두 얼빡샷">
-          <img class="img-common" src="./img/box_img_5.png" alt="호두아래에서내려다보기">
-          <img class="img-common" src="./img/box_img_6.png" alt="하품하는 호두">
+          </ul>
         </div>
 
         <div class="show-more-bottom">
           <h3>Continue exploring HODU</h3>
-          <button id="btn_more-hodu" class="btn_common"><span>Show more</span></button>
+          <button id="btn-more-hodu" class="btn_common"><span>Show more</span></button>
         </div>
       </div>
     </article>
     <hr/>
-    <article class="main-gps">
+    <article class="main-gps" >
       <div class="gps-text">
         <h2>Where you’ll be</h2>
         <h3>330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</h3>
@@ -106,7 +120,7 @@
                 <input type="email" id="tBx_email" placeholder="Enter your e-mail address"/>
               </div>
             </div>
-            <button id="btn_subscribe" class="btn_common"><span>subscribe</span></button>
+            <button id="btn_subscribe" class="btn_common">subscribe</button>
           </aside>
       </div>
     </article>
@@ -114,7 +128,7 @@
       <div>
         <img src="img/main_bottom_img.png" alt="호두하단이미지">
         <button id="btn_arrowUp">
-          <img src="./img/scroll-top-btn.png" alt="위로 올리기 버튼">
+          <img src="img/scroll-top-btn.png" alt="위로 올리기 버튼">
         </button>
       </div>
     </article>
@@ -140,19 +154,18 @@
     </div>
   </div>
 </footer>
-</body>
 
-<template id="modal">
+
+<div id="modal">
   <div class="modal-wrap">
-    <section class="modal">
-      <img src="./img/modal_img.png" width="112px" alt="모달이미지">
-      <h2>Thank You!</h2>
-      <h3>Lorem Ipsum is simply dummy text of the printing industry.</h3>
-      <button id="btn_modalClose"><span>OK! I Love HODU</span></button>
-    </section>
+    <img src="img/modal_img.png" width="112px" alt="모달이미지">
+    <h2>Thank You!</h2>
+    <h3>Lorem Ipsum is simply dummy text of the printing industry.</h3>
+    <button id="btn_modalClose" class="btn_common"><span>OK! I Love HODU</span></button>
   </div>
-</template>
+</div>
 
-<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkeyc93f75d4b21d4f6c225d0ac583c3f99d"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c93f75d4b21d4f6c225d0ac583c3f99d"></script>
 <script src="js/app.js"></script>
+</body>
 </html>
