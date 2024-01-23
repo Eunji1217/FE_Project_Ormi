@@ -1,10 +1,10 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 # Useful .gitignore templates: https://github.com/github/gitignore
-../node_modules
+./node_modules
 dist
 .cache
 modules.xml
 vcs.xml
 workspace.xml
-../FE_Project_Ormi.iml
+./FE_Project_Ormi.iml
