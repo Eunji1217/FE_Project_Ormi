@@ -4,5 +4,7 @@
 ../node_modules
 dist
 .cache
-FE_Project_Ormi.iml
-Ormi_FE_Project.iml
+modules.xml
+vcs.xml
+workspace.xml
+../FE_Project_Ormi.iml
